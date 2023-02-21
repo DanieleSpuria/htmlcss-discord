@@ -83,6 +83,7 @@ header a{
 
 
 
+
 /* JUMBOTRON */
 .jumbotron{
   display: flex;
@@ -147,8 +148,7 @@ header a{
 .last-card .container{
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
-  height: 100%;
+  justify-content: space-around;/
 }
 
 .last-card .container .img img{
@@ -180,40 +180,75 @@ header a{
   color: #f8f9fd;
 }
 
+
+
+
 /* FOOTER */
 footer{
-  height: 500px;
   background-color: #23272a;
 }
 
-
-.footer-top{
-  display: flex;
-  align-items: center;
-  height: 80%;
+footer .container{
+  height: 100%;
 }
 
-.col-social, .col{
-  height: 80%;
+footer .top{
+  display: flex;
+  padding-top: 90px;
+  padding-bottom: 30px;
 }
 
 .col-social{
   flex-grow: 2;
-  background-color: darkslategray;
 }
 
 .col{
   flex-grow: 1;
-  background-color: grey;
-  border: 1px white dashed;
+}
+
+footer .col-social h2, footer .col ul li:first-child{
+  color: #7188d9;
+}
+
+footer .col-social span, footer .col ul li{
+  color: #ffffff;
+}
+
+footer .col-social h2{
+  font-size: 35px;
+}
+
+footer .col-social span{
+  display: inline-block;
+  padding: 25px 0;
+}
+
+footer .col-social img{
+  width: 30px;
+}
+
+footer .col-social i{
+  padding-right: 10px;
+  color: #ffffff;
+}
+
+footer .col ul{
+  list-style: none;
+}
+
+footer .col ul li{
+  padding-bottom: 18px;
 }
 
 
-.footer-bottom{
+
+
+footer .bottom{
   display: flex;
+  justify-content: space-between;
   align-items: center;
   height: 20%;
-  border-top: 1px gray solid;
+  border-top: 1px solid #556187;
 }
 
 
