@@ -132,7 +132,16 @@ header a{
   padding: 80px 0;
 }
 
+.card .img{
+  width: 60%;
+}
+
+.card .img img{
+  width: 100%;
+}
+
 .card .text{
+  width: 40%;
   color: #23272a;
 }
 
