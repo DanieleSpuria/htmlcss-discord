@@ -23,9 +23,9 @@ body{
 
 .large{
   margin: 22px 13px;
-  padding: 15px 30px;
-  border-radius: 25px;
-  font-size: 18px;
+  padding: 15px 33px;
+  border-radius: 30px;
+  font-size: 22px;
   border: none;
 }
 
@@ -116,10 +116,6 @@ header a{
 
 
 /* MAIN */
-.card{
-  min-height: 500px;
-}
-
 .card:nth-child(even){
   background-color: #f6f6f6;
 }
@@ -144,29 +140,45 @@ header a{
 
 
 .last-card{
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  height: 800px;
+  text-align: center;
   background-color: #f6f6f6;
 }
 
-.last-card .text, .last-card .img{
+.last-card .container{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 100%;
+}
+
+.last-card .container .img img{
   width: 100%;
 }
 
-.last-card .text{
-  height: 15%;
-  background-color: chocolate;
+.last-card .container .bottom img{
+  width: 45%;
 }
 
-.last-card .img{
-  height: 50%;
-  background-color: aqua;
+.last-card h2{
+  margin-top: -18px;
+  margin-bottom: 15px;
+  font-size: 40px;
 }
 
+.last-card .bottom:last-child button{
+  margin-bottom: 130px;
+  background-color: #8ea1e1;
+}
 
+.last-card .bottom:last-child a{
+  color: #f8f9fd;
+}
 
+.last-card .bottom:last-child a::before{
+  content: '\2B07';
+  margin-right: 10px;
+  color: #f8f9fd;
+}
 
 /* FOOTER */
 footer{
@@ -179,7 +191,7 @@ footer{
   display: flex;
   align-items: center;
   height: 80%;
-}color: #ffffff;
+}
 
 .col-social, .col{
   height: 80%;
