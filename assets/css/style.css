@@ -126,17 +126,20 @@ header a{
 
 .card .container{
   display: flex;
-  padding: 80px;
-}
-
-.card .img{
-  width: 60%;
-  margin-right: 150px;
+  justify-content: space-between;
+  padding: 80px 0;
 }
 
 .card .text{
-  width: 40%; 
   color: #23272a;
+}
+
+.card:nth-of-type(odd) .container .text{
+  margin-left: 160px;
+}
+
+.card:nth-of-type(even) .container .text{
+  margin-right: 160px;
 }
 
 
