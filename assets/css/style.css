@@ -177,16 +177,16 @@ header a{
   font-size: 40px;
 }
 
-.last-card .bottom:last-child button{
+.last-card .bottom button{
   margin-top: 50px;
   background-color: #8ea1e1;
 }
 
-.last-card .bottom:last-child a{
+.last-card .bottom a{
   color: #f8f9fd;
 }
 
-.last-card .bottom:last-child a::before{
+.last-card .bottom a::before{
   content: '\2B07';
   margin-right: 10px;
   color: #f8f9fd;
